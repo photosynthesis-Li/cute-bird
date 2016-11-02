@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>大咖show</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="###" rel="stylesheet" />
+
+
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+
+<body class="impress-not-supported">
+
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+
+<div id="impress">
+
+
+    <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
+        <q>在山的那边海的那边有一群
+            <br/>
+            <b style="color:blue;">"小菜鸟"</b>小菜鸟^_^</q>
+    </div>
+
+
+    <div class="step slide" data-x="0" data-y="-1500">
+        <q style="font-size:50px;">Ta们 <strong>活泼</strong> 又 <strong>聪明</strong>(你有见过吗)?</q>
+    </div>
+
+    <div class="step slide" data-x="1000" data-y="-1500">
+        <q>Ta们 <strong>调皮</strong> with <strong>伶俐</strong>O(∩_∩)O哈</q>
+    </div>
+
+
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+        <span class="try">她们</span>
+        <h1><em>自由自在</em><sup>*</sup></h1>
+        <span class="footnote"><sup>*</sup>生活在绿色的大森林</span>
+    </div>
+
+
+    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
+        <p><他们>
+            <br/>
+         <strong>相互</strong>
+            关心<a href="###">
+            相互</a>
+            又 <strong>开心</strong><br/>gogogo...</p>
+    </div>
+
+    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+        <p>可爱的 <b>啊 </b> <span class="thoughts">小菜鸟</span></p>
+    </div>
+
+
+    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+        <p>ha<b>ha</b>ha</p>
+    </div>
+
+
+
+    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
+        <p>他们by <b class="positioning">齐心协力</b>, <b class="rotating">开动脑筋</b> and <b class="scaling">斗败了</b> 老鸟队</p>
+    </div>
+
+    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
+        <p>他们<b>唱歌</b>跳舞 <b class="imagination">欢乐</b>又开心</p>
+    </div>
+
+    <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
+        <p>想了解更多内容吗？</p>
+        <q><a href="###">敬请期待</a>,Goodluck!</q>
+    </div>
+
+    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
+        <p>one more thing...</p>
+    </div>
+
+
+    <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it’s</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
+        <span class="footnote">* beat that, prezi ;)</span>
+    </div>
+
+
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div>
+
+</div>
+
+
+<div class="hint">
+    <p>应用空格键或者方向键开始你的奇幻之旅吧</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+
+
+</body>
+</html>
+
+<!--中文教程 : http://www.360doc.com/content/12/1207/15/176942_252688895.shtml#-->
